@@ -1,24 +1,28 @@
-<p align="center">
-  <img alt="DrumJS" src="./assets/GitHub/Mockup.png " width="70%"> 
-  </p>
+# Bateria Virtual — Guebly Games
 
-# :clipboard: Sobre o projeto
+Drum kit interativo com visualizador de áudio e compositor.
 
-   Simples Projeto realizado com HTML, CSS e JavaScript de um bateria virtual na qual é possível fazer composições e definir o tempo da sua música utilizando os sons disponíveis na bateria.
-     <br>
-# 🔗 Acesse o site com o link abaixo. 
+## Jogar
 
-- [Bateria Virtual](https://degabrielofi.github.io/DrumJS/)
-
-## :computer: Tecnologias utilizadas
-Este projeto foi desenvolvido com as seguintes tecnologias:
-- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [JavaScript](https://www.javascript.com/)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-
-## 🌐 Para iniciarlizar o projeto utilize o comando abaixo:
 ```bash
-#Clonando o repositório do Github:
-
-$ git clone https://github.com/degabrielofi/DrumJS
+npm install
+npm run dev
 ```
+
+## Features
+
+- 9 pads de bateria (Q W E A S D Z X C)
+- Toque via teclado ou clique/toque
+- Visualizador de frequência animado
+- Compositor: escreva sequências e reproduza
+- Efeito ring de impacto nos pads
+- Visual Guebly Games (dark theme, neon blue/magenta)
+- Responsivo
+
+## Stack
+
+React + Vite + styled-components + Web Audio API
+
+## Licença
+
+MIT — © 2026 Guebly Games
